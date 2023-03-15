@@ -1,0 +1,202 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,254,254,1) 100%);
+    color: #374B5C;
+}
+
+body a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 2vw 0 0 1vw;
+}
+
+header nav ul li a{
+    color: #3e3e3e;
+}
+
+header nav ul li a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+/*==section==*/
+main section.banner{
+    background: url(../img/flor.png) no-repeat top right;
+    padding: 5vw 0;
+    height: 70vh;
+}
+
+section.banner h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1vw 0;
+}
+
+section.banner h2{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.banner p {
+    line-height: 4vh;
+    font-size: 2.2vh;
+}
+
+p.txt {
+    width: 30vw;
+    margin: 2vw 0;
+}
+
+section.banner p a{
+    background: #00fbd2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section.banner p a:hover{
+    background: #00ddb8;
+    color: rgb(231, 231, 231);
+}
+
+.banner-ctn {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+section.welcome {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+section.welcome p {
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+}
+
+section.welcome span {
+    line-height: 4vh;
+}
+
+.org-food {
+    margin-top: 10vh;
+    width: 100%;
+    float: left;
+}
+
+.card {
+    width: 233.5px;
+    float: left;
+    padding: 60px 20px;
+    border:dashed 2px #374B5C;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.card h4 {
+    margin: 25px 0px;
+}
+
+section.ppb {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+section.ppb p {
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+}
+
+section.ppb span {
+    line-height: 4vh;
+}
+
+.ppb-img {
+    margin-top: 10vh;
+    width: 100%;
+    float: left;
+}
+
+.ppb-card {
+    width: 216px;
+    float: left;
+    margin-right: 30px;
+}
+
+.ppb-card:last-child {
+    margin-right: 0;
+}
+
+section.blog {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+section.blog p {
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    font-size: 5vh;
+}
+
+section.blog span {
+    line-height: 4vh;
+}
+
+.blog-img {
+    margin-top: 10vh;
+    float: left;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-card {
+    width: 380px;
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-card:last-child {
+    margin-right: 0px;
+}
+
+.blog-card h4 {
+    font-size: 3vh;
+    color: #00fbd2;
+    margin: 2vh 0px;
+}
+
+.blog-card a {
+    text-decoration: none;
+    margin-top: 5vh;
+}
