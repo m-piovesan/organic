@@ -1,2 +1,3 @@
 # organic
-todo
+PT-BR: Projeto desenvolvido com HTML e CSS aplicando alguns conceitos básicos para fixação e treinamento. 
+EN: Project developed with HTML and CSS applying some basic concepts for consolidation and training.
